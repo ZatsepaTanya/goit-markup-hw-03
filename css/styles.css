@@ -10,6 +10,12 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
+.conteiner {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+}
 .logo > span{
     color: var(--accent-color);
     }
@@ -22,6 +28,8 @@ body {
     text-decoration: none;
 }
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -51,19 +59,22 @@ body {
     color: var(--accent-color);  
 }
 .hero {
+    padding-top: 200px;
+    padding-bottom: 200px ;
     background: #2F303A;
     letter-spacing: 0.06em;
     text-align: center;
 }
 
 .hero-title {
+    margin-top:0;
+    margin-bottom:30px;
     color: #ffffff;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase; 
-    outline: 2px solid tomato;
-}
+ }
 .hero .button{
     display: inline-block;
     padding: 10px 32px;
@@ -74,19 +85,25 @@ body {
     font-size: 16px;
     line-height: 1.87;
     text-decoration: none;
-}
+ }
 .features .title {
+    margin-top: 0px;
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-}
+ }
 .features .text {
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 14px;
     line-height: 1.71;
 }
 .section-title {
+    margin-top: 0px;
+    margin-bottom: 50px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -94,19 +111,31 @@ body {
     text-align: center;
 }
 .company-title {
+    margin-top: 30px;
+    margin-bottom: 0px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 }
+.section.job {
+    padding-top: 94px;
+    padding-bottom: 94px ;
+}
 .company-job {
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 16px;
     line-height: 1.19;
 }
 .post {
     background-color: #000000;
+    padding-top: 60px;
+    padding-bottom: 60px ;
 }
 .post-logo {
+    margin-top: 0px;
+    margin-bottom: 20px;
     color: #ffffff;
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -123,9 +152,15 @@ body {
     line-height: 1.71;
     font-style: normal;
 }
+ p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .address .link{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    margin-top: 9px;
+    margin-bottom: 0px;
 }
 .site-nav .current{
     color: var(--accent-color);
