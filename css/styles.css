@@ -10,6 +10,11 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .conteiner {
     width: 1200px;
     padding-left: 15px;
@@ -112,12 +117,14 @@ body {
     line-height: 1.87;
     text-decoration: none;
  }
+ .section.plus{
+     padding-top: 94px;
+     padding-bottom: 94px;
+ }
  .features{
      display: flex;
      flex-wrap: wrap;
-     margin-top: 94px;
-     margin-bottom: 94px;
-     justify-content:center;
+     justify-content:space-between;
  }
  .features .item{
      width: 270px;
@@ -141,7 +148,8 @@ body {
 }
 .section-title {
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
 
     color: var(--title-text-color);
     font-weight: 700;
@@ -151,23 +159,37 @@ body {
 }
 .work{
     display: flex;
-    margin-bottom: 94px;
- }
+   }
 
 .work .item:not(:last-child){
     margin-right: 30px;
  }
+ .section.operation{
+     padding-bottom: 94px;
+     padding-top: 94px;
+ }
+ .section.job {
+    padding-top: 94px;
+    padding-bottom: 94px ;
+    background: #F5F4FA;
+}
 .company{
     display: flex;
-    margin-top: 94px;
+    margin-top: 50px;
 }
-.company .item{
-    margin-bottom: 94px;
+.company .item:not(:last-child){
     margin-right: 30px;
-    
+}
+.name{
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    background: #FFFFFF;
+    padding-top:30px ;
+    padding-bottom: 30px;
+
 }
 .company-title {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 0px;
 
     color: var(--title-text-color);
@@ -175,10 +197,7 @@ body {
     font-size: 16px;
     line-height: 1.19;
 }
-.section.job {
-    padding-top: 94px;
-    padding-bottom: 94px ;
-}
+
 .company-job {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -189,7 +208,7 @@ body {
 .post {
     padding-top: 60px;
     padding-bottom: 60px ;
-
+    
     background-color: #000000;
 }
 .post-logo {
@@ -226,25 +245,52 @@ body {
 .site-nav .current{
     color: var(--accent-color);
     }
+.portfolio{
+    background: #E5E5E5;
+}
+.conteiner.project{
+    padding-bottom: 94px;
+    padding-top: 94px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+button{
+    padding: 0px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    border: transparent;
+}
 .filtr{
     display: flex;
     justify-content: center;
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 .filtr .item:not(:last-child){
 margin-right: 8px;
 }
+.filtr-title{
+    padding: 6px 22px;
+    margin: 0px;
+    
+}
+
 .example{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
 }
 .example .item{
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    background: #FFFFFF;
+    
+    box-sizing: border-box;
 
+}
+.card{
+    padding: 20px 24px;
+    
 }
 .example .item:nth-child(3n){
     margin-right: 0px;
@@ -256,7 +302,7 @@ margin-right: 8px;
     text-decoration: none;
 }
 .example .title{
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0px;
 
     color: var(--title-text-color);
